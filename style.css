@@ -1,6 +1,10 @@
 body{
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .secao-metas {
@@ -31,10 +35,25 @@ img{
     transition: .9s;
 }
 
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+}
+
 h2{
     width: 400px;
 }
 
 p{
     width: 400px;
+}
+
+footer{
+    bottom: 0px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #FFCB3D;
 }
