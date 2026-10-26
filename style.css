@@ -57,3 +57,14 @@ footer{
     width: 80%;
     background-color: #FFCB3D;
 }
+
+@media (max-width: 1000px){
+    .meta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 50%;
+    }
+}
