@@ -1,4 +1,12 @@
+:root{
+    --cor-primaria: #8AD6D1;
+    --cor-secundaria: #359FA0;
+    --cor-terciaria: #FFF0C5;
+    --cor-detalhe: #FF8C52;
+}
+
 body{
+    background-image: url(\textura.webp);
     text-align: center;
     width: 100%;
     display: flex;
@@ -12,7 +20,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    background-color: var(--cor-primaria);
+    box-shadow: 10px 10px var(--cor-detalhe);
 }
 
 .meta{
@@ -49,6 +59,7 @@ p{
 }
 
 footer{
+    margin-top: 40px;
     bottom: 0px;
     height: 60px;
     display: flex;
@@ -67,4 +78,18 @@ footer{
         flex-direction: row;
         width: 50%;
     }
+}
+
+.secao-perfil, .perfil, .texto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    flex-direction: row;
+}
+
+.texto-perfil{
+    flex-direction: column;
 }
